@@ -1,7 +1,3 @@
-# SimpleStorage.sol
-
-A beginner-friendly Solidity smart contract built with **Foundry** and **Remix**, following the **Cyfrin Updraft** course.
-
 ## 📖 Overview
 The **SimpleStorage** contract demonstrates:
 - Declaring and managing state variables
