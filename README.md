@@ -21,7 +21,7 @@ Clone the repo:
 ```bash
 git clone https://github.com/Apenko/foundry-simple-storage.git
 cd foundry-simple-storage
-
+```
 ### To Compile
 ```shell
 $ forge build
