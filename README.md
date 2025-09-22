@@ -1,66 +1,47 @@
-## Foundry
+# SimpleStorage.sol
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+A beginner-friendly Solidity smart contract built with **Foundry** and **Remix**, following the **Cyfrin Updraft** course.
 
-Foundry consists of:
+## 📖 Overview
+The **SimpleStorage** contract demonstrates:
+- Declaring and managing state variables
+- Writing functions to update and retrieve stored values
+- Using Solidity basics (variables, functions, and visibility)
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+This project is an introduction to smart contract development and serves as a foundation for building more advanced dApps.
 
-## Documentation
+## ⚒️ Tech Stack
+- Solidity ^0.8.0
+- Foundry (forge, cast)
+- Remix IDE (for initial deployment)
 
-https://book.getfoundry.sh/
+## 🚀 Features
+- Store a number on-chain
+- Retrieve stored value
+- Basic contract structure for learning
 
-## Usage
+## 🛠️ Setup & Usage
+Clone the repo:
+```bash
+git clone https://github.com/Apenko/foundry-simple-storage.git
+cd foundry-simple-storage
 
-### Build
-
+### To Compile
 ```shell
 $ forge build
 ```
-
-### Test
-
+### Run Test
 ```shell
 $ forge test
 ```
+📬 Deployment
 
-### Format
+Deployable on:
 
-```shell
-$ forge fmt
-```
+Local Anvil node
 
-### Gas Snapshots
+Ethereum testnets (Goerli, Sepolia, etc.)
 
-```shell
-$ forge snapshot
-```
+📝 License
 
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+This project is licensed under the MIT License.
